@@ -1,1 +1,183 @@
-/*# sourceMappingURL=style.css.map */
+/* http://meyerweb.com/eric/tools/css/reset/  v2.0 | 20110126 License: none (public domain)*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "PT Serif", serif;
+}
+
+.contenair {
+  max-width: 90%;
+  margin: auto;
+}
+@media screen and (min-width: 900px) {
+  .contenair {
+    max-width: 1100px;
+    min-height: 94vh;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 0;
+}
+@media screen and (min-width: 900px) {
+  header {
+    flex-direction: row;
+  }
+}
+header h1 {
+  font-family: "PT Serif", serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+header div {
+  font-family: "Poppins", sans-serif;
+}
+@media screen and (min-width: 900px) {
+  header div {
+    width: 30%;
+  }
+}
+header div h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin: 20px 0;
+  font-size: 18px;
+}
+header div p {
+  font-size: 14px;
+}
+@media screen and (min-width: 900px) {
+  header div p {
+    font-size: 18px;
+  }
+}
+
+main {
+  margin: 50px 0;
+}
+main section {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 900px) {
+  main section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+main section div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (min-width: 900px) {
+  main section div {
+    flex-direction: column;
+  }
+}
+main section article img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 155px;
+}
+@media screen and (min-width: 900px) {
+  main section article img {
+    width: 238px;
+  }
+}
+main section article h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+main section article p {
+  font-family: "PT Serif", serif;
+  text-transform: uppercase;
+  font-size: 12px;
+  transform: rotate(90deg);
+  position: relative;
+  bottom: 178px;
+  left: 84px;
+}
+@media screen and (min-width: 900px) {
+  main section article p {
+    bottom: 262px;
+    left: 129px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 370px) {
+  main section article p {
+    display: none;
+  }
+}
+
+.card-two {
+  margin-top: 50px;
+}
+@media screen and (min-width: 900px) {
+  .card-two {
+    margin-top: 0px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .card-three {
+    margin-top: 125px;
+  }
+}
+.card-four {
+  margin-top: 50px;
+}
+@media screen and (min-width: 900px) {
+  .card-four {
+    margin-top: 125px;
+  }
+}
+.card-six {
+  margin-top: 50px;
+}
+@media screen and (min-width: 900px) {
+  .card-six {
+    margin-top: 0px;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #BDBDBD;
+  margin: 20px 0;
+}
+footer p {
+  font-size: 14px;
+}/*# sourceMappingURL=style.css.map */
